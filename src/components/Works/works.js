@@ -4,7 +4,7 @@ import Portfolio1 from '../../assets/portfolio-1.png';
 import Portfolio2 from '../../assets/portfolio-2.PNG';
 import Portfolio3 from '../../assets/portfolio-3.PNG';
 import Portfolio4 from '../../assets/portfolio-4.png';
-import Portfolio5 from '../../assets/portfolio-5.png';
+import FubboxImg from '../../assets/fubbox.png';
 import Portfolio6 from '../../assets/portfolio-6.png';
 import HackathonThumbnail from '../../assets/hackathon-thumbn-ai.png';
 import HackathonUniConnect1 from '../../assets/hackathon-uniconnect-1.png';
@@ -117,24 +117,24 @@ const commercialItems = [
         inquiryText: "Hi Poet Sony, I saw the Hedge Computers platform in your portfolio and would like to build an e-commerce platform!"
     },
     {
-        id: "comm-1",
-        title: "StoqBox — Grocery & Essential Box Subscription Platform",
+        id: "comm-fubbox",
+        title: "Fubbox — Grocery & Essential Box Subscription Platform",
         subtitle: "Full-Stack E-Commerce & Subscription SaaS",
         category: "web",
         categoryLabel: "Web Application",
-        accentColor: "#10b981",
-        image: Portfolio5,
+        accentColor: "#e50914",
+        image: FubboxImg,
         imageType: "web",
         summary: "Nigeria's premier grocery & kitchen essentials subscription platform delivering customized staple goods to homes across Lagos.",
-        description: "Engineered with a responsive modular architecture, StoqBox enables households and businesses to build personalized staple grocery boxes or choose pre-curated monthly bundles with automated recurring deliveries. Features dynamic cart state management, order tracking dashboards, and seamless payment integration.",
+        description: "Engineered with a responsive modular architecture, Fubbox enables households and businesses to build personalized staple grocery boxes or choose pre-curated monthly bundles with automated recurring deliveries. Features dynamic cart state management, Save & Pay installment plans, offline-first PWA architecture, and order tracking dashboards.",
         deliverables: [
             "Custom Box Builder with real-time calorie & budget calculator",
-            "Automated monthly recurring subscription engine",
-            "Customer orders & delivery status dashboard",
-            "Mobile-first responsive design for quick checkout"
+            "Automated monthly recurring subscription engine & Save & Pay installments",
+            "Customer orders, live dispatch & delivery status dashboard",
+            "Mobile-first responsive PWA design with offline cart support"
         ],
-        tags: ["React", "TypeScript", "Tailwind CSS", "Node.js", "Supabase", "REST API"],
-        inquiryText: "Hi Poet Sony, I saw your StoqBox subscription web platform in your portfolio and would like to discuss a project!"
+        tags: ["React 19", "TypeScript", "Tailwind CSS v4", "Node.js", "Supabase", "REST API", "PWA"],
+        inquiryText: "Hi Poet Sony, I saw your Fubbox subscription web platform in your portfolio and would like to discuss a project!"
     },
     {
         id: "comm-2",

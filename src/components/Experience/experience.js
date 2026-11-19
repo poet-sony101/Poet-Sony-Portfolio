@@ -40,17 +40,17 @@ const experiences = [
         skills: ["React 19", "TypeScript", "Vite", "Tailwind CSS v4", "Solar Sizing Engine", "B2B E-Commerce", "Web Architecture"]
     },
     {
-        id: 'stoqbox',
+        id: 'fubbox',
         role: "Full-Stack Software Engineer (Full-Time)",
-        company: "StoqBox",
+        company: "Fubbox",
         location: "Lagos, Nigeria",
         flag: "🇳🇬",
         country: "Nigeria",
         period: "Sept 2026 — Present",
         type: "Full-Time Role",
         category: "web",
-        description: "Leading full-stack engineering for Nigeria's premier grocery and kitchen essential subscription service. Architecting custom bundle builders, recurring automated delivery schedules, real-time cart state management, and customer portal dashboards with high-availability cloud infrastructure.",
-        skills: ["React", "TypeScript", "Node.js", "Tailwind CSS", "Supabase", "Subscription Systems", "E-Commerce"]
+        description: "Leading full-stack engineering for Nigeria's premier grocery and kitchen essential subscription service (Fubbox, formerly StoqBox). Architecting custom bundle builders, Save & Pay installment plans, recurring automated delivery schedules, real-time cart state management, and customer portal dashboards with high-availability cloud infrastructure.",
+        skills: ["React", "TypeScript", "Node.js", "Tailwind CSS", "Supabase", "Subscription Systems", "E-Commerce", "PWA"]
     },
     {
         id: 'hedge-computers',

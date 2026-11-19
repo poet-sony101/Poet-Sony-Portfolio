@@ -18,18 +18,17 @@ const clientList = [
     { id: '04', name: 'Softlink.ai', services: 'Content Writing' },
     { id: '05', name: 'Born King Artistry', services: 'Computer Repairs' },
     { id: '06', name: 'Logo Knox', services: 'Website Development' },
-    { id: '07', name: 'StoqBox', services: 'Website & App Development' },
-    { id: '08', name: 'Poppin', services: 'App Development' },
-    { id: '09', name: 'Boucherie', services: 'Website Development' },
-    { id: '10', name: 'Fat Rooster', services: 'Digital Storefront & Online Ordering' },
-    { id: '11', name: 'Suf-Del Communications', services: 'Computer Repairs' },
-    { id: '12', name: 'Creative Minds Hub', services: 'Graphics & Video Editing' },
-    { id: '13', name: 'New Dawn Technologies', services: 'Content Writing & Computer Repairs' },
-    { id: '14', name: 'TechSavvy Solutions', services: 'Digital Marketing' },
-    { id: '15', name: 'Bright Future Academy', services: 'Graphics & Video Editing' },
-    { id: '16', name: 'Hedge Computers', services: 'E-Commerce & Dealership Web Portal' },
-    { id: '17', name: 'Amaoso Solar Technology', services: 'Industrial Luminaire & Solar Sizing Portal' },
-    { id: '18', name: "Ezeougu's J Portfolio", services: 'Personal Brand & Digital CV Portal' }
+    { id: '07', name: 'Fubbox', services: 'Website & App Development' },
+    { id: '08', name: 'Boucherie', services: 'Website Development' },
+    { id: '09', name: 'Fat Rooster', services: 'Digital Storefront & Online Ordering' },
+    { id: '10', name: 'Suf-Del Communications', services: 'Computer Repairs' },
+    { id: '11', name: 'Creative Minds Hub', services: 'Graphics & Video Editing' },
+    { id: '12', name: 'New Dawn Technologies', services: 'Content Writing & Computer Repairs' },
+    { id: '13', name: 'TechSavvy Solutions', services: 'Digital Marketing' },
+    { id: '14', name: 'Bright Future Academy', services: 'Graphics & Video Editing' },
+    { id: '15', name: 'Hedge Computers', services: 'E-Commerce & Dealership Web Portal' },
+    { id: '16', name: 'Amaoso Solar Technology', services: 'Industrial Luminaire & Solar Sizing Portal' },
+    { id: '17', name: "Ezeougu's J Portfolio", services: 'Personal Brand & Digital CV Portal' }
 ];
 
 const Contact = () => {
@@ -103,7 +102,7 @@ const Contact = () => {
                         Trusted by diverse <span className="gradient-text">brands & businesses</span>.
                     </h2>
                     <p className="sectionSubtitle">
-                        I've partnered with over 18 companies across commerce, tech, creative studios, and education to engineer solutions that make an impact.
+                        I've partnered with over 17 companies across commerce, tech, creative studios, and education to engineer solutions that make an impact.
                     </p>
                 </div>
 
@@ -122,7 +121,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                {/* Complete Clients Grid (1 to 18) */}
+                {/* Complete Clients Grid (1 to 17) */}
                 <div className="clientsCompactGrid">
                     {clientList.map((client) => (
                         <div key={client.id} className="clientGridCard glass-card">
