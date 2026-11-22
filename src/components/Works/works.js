@@ -15,6 +15,7 @@ import HedgeComputersImg from '../../assets/hedge-computers.png';
 import AmaosoImg from '../../assets/amaoso.png';
 import EzeouguPortfolioImg from '../../assets/ezeougu-portfolio.png';
 import FatRoosterImg from '../../assets/fatrooster.png';
+import AvailableTechImg from '../../assets/available-tech.png';
 import { 
     SparklesIcon, 
     ArrowUpRightIcon, 
@@ -29,6 +30,28 @@ import {
 
 /* Commercial & Client Works */
 const commercialItems = [
+    {
+        id: "comm-availabletech",
+        title: "Available Tech — Premium Device Catalog & Market Inquiry Platform",
+        subtitle: "Next.js 16, React 19, Dynamic Inventory & WhatsApp Price Routing",
+        category: "web",
+        categoryLabel: "E-Commerce & Catalog",
+        accentColor: "#3b82f6",
+        image: AvailableTechImg,
+        imageType: "web",
+        summary: "High-performance device catalog, real-time Computer Village market pricing, and automated WhatsApp inquiry platform engineered for New Dawn Technologies.",
+        description: "Architected and engineered the modern digital commerce catalog for Available Tech (availabletech.ng), the flagship technology retail platform for New Dawn Technologies operating in Computer Village, Ikeja, Lagos. Built with Next.js 16, React 19, TypeScript, and Tailwind CSS v4, the platform delivers a sleek Apple-inspired interface showcasing brand-new and pristine UK-used MacBooks, laptops, iPhones, Android flagships, and premium accessories with daily market price tracking, instant search & brand filtering, zero-config cloud storage persistence, and automated WhatsApp inquiry routing with pre-filled device configurations.",
+        deliverables: [
+            "Apple-inspired dark/light responsive interface with frosted glass accents and fluid micro-interactions",
+            "High-performance catalog engine for UK-used & brand-new MacBooks, high-end laptops, and smartphones",
+            "Real-time daily market pricing updates and custom device availability verification",
+            "Automated WhatsApp inquiry router generating structured pre-filled device specification messages",
+            "Direct bespoke product request engine allowing customers to source rare configurations and models",
+            "Comprehensive Computer Village Ikeja retail showroom alignment and nationwide insured delivery support"
+        ],
+        tags: ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS v4", "Supabase", "E-Commerce", "Hardware Catalog", "WhatsApp Automation"],
+        inquiryText: "Hi Poet Sony, I saw the Available Tech platform in your portfolio and would like to build a technology catalog / e-commerce platform!"
+    },
     {
         id: "comm-fatrooster",
         title: "Fat Rooster — Digital Storefront & Online Ordering Engine",

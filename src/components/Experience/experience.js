@@ -197,16 +197,16 @@ const experiences = [
     },
     {
         id: 'newdawn',
-        role: "IT Specialist",
-        company: "New Dawn Technologies (Pty) Ltd",
-        location: "Lagos, Nigeria",
+        role: "IT Specialist & Full-Stack Developer",
+        company: "New Dawn Technologies (Available Tech)",
+        location: "Ikeja, Lagos, Nigeria",
         flag: "🇳🇬",
         country: "Nigeria",
         period: "2022 — 2024",
-        type: "IT Infrastructure & Support",
+        type: "IT Infrastructure & Web Platform",
         category: "it",
-        description: "Handled enterprise hardware/computer repairs, technical troubleshooting, system maintenance routines, and authored technical documentation across a two-year tenure.",
-        skills: ["Hardware Repair", "Troubleshooting", "Technical Writing", "IT Infrastructure"]
+        description: "Delivered enterprise IT systems support, computer and logic board diagnostics, and architected the Available Tech device catalog and market inquiry web platform. Spearheaded technical documentation, workstation deployments, and low-latency digital inventory workflows for Computer Village operations.",
+        skills: ["Hardware Repair", "Next.js", "React", "TypeScript", "IT Infrastructure", "Technical Documentation"]
     },
     {
         id: 'sufdel',
