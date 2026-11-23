@@ -18,7 +18,7 @@ const clientList = [
     { id: '04', name: 'Softlink.ai', services: 'Content Writing' },
     { id: '05', name: 'Born King Artistry', services: 'Computer Repairs' },
     { id: '06', name: 'Logo Knox', services: 'Website Development' },
-    { id: '07', name: 'Fubbox', services: 'Website & App Development' },
+    { id: '07', name: 'Fubbox (Founder & CEO)', services: 'Grocery Subscription & E-Commerce Platform' },
     { id: '08', name: 'Boucherie', services: 'Website Development' },
     { id: '09', name: 'Fat Rooster', services: 'Digital Storefront & Online Ordering' },
     { id: '10', name: 'Suf-Del Communications', services: 'Computer Repairs' },
@@ -29,7 +29,7 @@ const clientList = [
     { id: '15', name: 'Hedge Computers', services: 'E-Commerce & Dealership Web Portal' },
     { id: '16', name: 'Amaoso Solar Technology', services: 'Industrial Luminaire & Solar Sizing Portal' },
     { id: '17', name: "Ezeougu's J Portfolio", services: 'Personal Brand & Digital CV Portal' },
-    { id: '18', name: 'Available Tech', services: 'Device Catalog & Inquiry Web Platform' }
+    { id: '18', name: 'Available Tech (Founder & CEO)', services: 'Tech Sourcing & Device Catalog Platform' }
 ];
 
 const Contact = () => {

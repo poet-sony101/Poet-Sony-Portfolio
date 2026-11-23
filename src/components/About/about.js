@@ -190,6 +190,9 @@ const About = ({ onBack, onNavigate }) => {
                                 Beyond the terminal, I am popularly known as <span className="storyPoet">Poet Sony</span>. Writing poetry, delivering spoken word, and engaging in public speaking are not hobbies separated from my code—they are the human foundation of my engineering craft. They instill deep emotional intelligence, acute empathy for the end-user, and the rare ability to articulate complex technical architectures to stakeholders with clarity, charisma, and passion.
                             </p>
                             <p className="storyParagraph">
+                                As an entrepreneurial builder, I am the <strong>Founder &amp; CEO</strong> of <strong>Available Tech</strong> (Computer Village's premier consumer electronics sourcing and Apple-style catalog platform) and <strong>Fubbox</strong> (Nigeria's staple grocery and kitchen essential subscription service). Steering these ventures from inception taught me that real technology must create tangible economic value—uniting business operations, supply chain logistics, and production-grade software into seamless user journeys.
+                            </p>
+                            <p className="storyParagraph">
                                 I have had the privilege of collaborating with startups and forward-thinking businesses across <strong>Nigeria, the United Kingdom, and the United States</strong>. Whether optimizing enterprise platforms or building zero-to-one products, I thrive in fast-paced environments where the engineering bar is high and the mission truly matters.
                             </p>
                         </div>

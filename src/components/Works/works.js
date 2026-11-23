@@ -33,14 +33,14 @@ const commercialItems = [
     {
         id: "comm-availabletech",
         title: "Available Tech — Premium Device Catalog & Market Inquiry Platform",
-        subtitle: "Next.js 16, React 19, Dynamic Inventory & WhatsApp Price Routing",
+        subtitle: "Founder & CEO • Next.js 16, React 19, Dynamic Inventory & WhatsApp Price Routing",
         category: "web",
-        categoryLabel: "E-Commerce & Catalog",
+        categoryLabel: "Founder Venture • Tech Catalog & Sourcing",
         accentColor: "#3b82f6",
         image: AvailableTechImg,
         imageType: "web",
-        summary: "High-performance device catalog, real-time Computer Village market pricing, and automated WhatsApp inquiry platform engineered for New Dawn Technologies.",
-        description: "Architected and engineered the modern digital commerce catalog for Available Tech (availabletech.ng), the flagship technology retail platform for New Dawn Technologies operating in Computer Village, Ikeja, Lagos. Built with Next.js 16, React 19, TypeScript, and Tailwind CSS v4, the platform delivers a sleek Apple-inspired interface showcasing brand-new and pristine UK-used MacBooks, laptops, iPhones, Android flagships, and premium accessories with daily market price tracking, instant search & brand filtering, zero-config cloud storage persistence, and automated WhatsApp inquiry routing with pre-filled device configurations.",
+        summary: "Founded and engineered by Poet Sony as CEO, Available Tech is Computer Village's premier digital technology catalog, daily market pricing engine, and WhatsApp inquiry platform.",
+        description: "Founded and executive-led by Oluwaniyi Amao (Poet Sony) as CEO, Available Tech (availabletech.ng) is Computer Village Ikeja's premier modern technology sourcing and device catalog company. Architected the platform from the ground up with Next.js 16.2, React 19, TypeScript, and Tailwind CSS v4, delivering an Apple-inspired dark/light interface showcasing brand-new and pristine UK-used MacBooks, laptops, iPhones, and Android flagships with daily real-time market rate alignment, instant brand filtering, zero-config cloud storage persistence, and automated WhatsApp procurement routing with pre-filled device configurations.",
         deliverables: [
             "Apple-inspired dark/light responsive interface with frosted glass accents and fluid micro-interactions",
             "High-performance catalog engine for UK-used & brand-new MacBooks, high-end laptops, and smartphones",
@@ -49,8 +49,8 @@ const commercialItems = [
             "Direct bespoke product request engine allowing customers to source rare configurations and models",
             "Comprehensive Computer Village Ikeja retail showroom alignment and nationwide insured delivery support"
         ],
-        tags: ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS v4", "Supabase", "E-Commerce", "Hardware Catalog", "WhatsApp Automation"],
-        inquiryText: "Hi Poet Sony, I saw the Available Tech platform in your portfolio and would like to build a technology catalog / e-commerce platform!"
+        tags: ["Founder & CEO", "Next.js 16", "React 19", "TypeScript", "Tailwind CSS v4", "Supabase", "E-Commerce", "Hardware Catalog", "WhatsApp Automation"],
+        inquiryText: "Hi Poet Sony, I saw Available Tech in your portfolio and would like to build a technology catalog / e-commerce platform!"
     },
     {
         id: "comm-fatrooster",
@@ -142,22 +142,22 @@ const commercialItems = [
     {
         id: "comm-fubbox",
         title: "Fubbox — Grocery & Essential Box Subscription Platform",
-        subtitle: "Full-Stack E-Commerce & Subscription SaaS",
+        subtitle: "Founder & CEO • Full-Stack E-Commerce & Subscription SaaS",
         category: "web",
-        categoryLabel: "Web Application",
+        categoryLabel: "Founder Venture • Subscription Commerce",
         accentColor: "#e50914",
         image: FubboxImg,
         imageType: "web",
-        summary: "Nigeria's premier grocery & kitchen essentials subscription platform delivering customized staple goods to homes across Lagos.",
-        description: "Engineered with a responsive modular architecture, Fubbox enables households and businesses to build personalized staple grocery boxes or choose pre-curated monthly bundles with automated recurring deliveries. Features dynamic cart state management, Save & Pay installment plans, offline-first PWA architecture, and order tracking dashboards.",
+        summary: "Founded and engineered by Poet Sony as CEO, Fubbox is Nigeria's premier grocery & kitchen essentials subscription platform delivering customized staple bundles to homes across Lagos.",
+        description: "Founded and led by Oluwaniyi Amao (Poet Sony) as CEO, Fubbox (formerly StoqBox) is Nigeria's pioneering staple grocery and kitchen essential subscription platform. Engineered with a responsive modular architecture, Fubbox enables households and businesses to build personalized staple grocery boxes or choose pre-curated monthly bundles with automated recurring deliveries. Features dynamic cart state management, Save & Pay installment plans, offline-first PWA architecture, and live dispatch telemetry dashboards.",
         deliverables: [
             "Custom Box Builder with real-time calorie & budget calculator",
             "Automated monthly recurring subscription engine & Save & Pay installments",
             "Customer orders, live dispatch & delivery status dashboard",
             "Mobile-first responsive PWA design with offline cart support"
         ],
-        tags: ["React 19", "TypeScript", "Tailwind CSS v4", "Node.js", "Supabase", "REST API", "PWA"],
-        inquiryText: "Hi Poet Sony, I saw your Fubbox subscription web platform in your portfolio and would like to discuss a project!"
+        tags: ["Founder & CEO", "React 19", "TypeScript", "Tailwind CSS v4", "Node.js", "Supabase", "REST API", "PWA"],
+        inquiryText: "Hi Poet Sony, I saw Fubbox in your portfolio and would like to discuss a project!"
     },
     {
         id: "comm-2",

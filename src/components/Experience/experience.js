@@ -41,16 +41,29 @@ const experiences = [
     },
     {
         id: 'fubbox',
-        role: "Full-Stack Software Engineer (Full-Time)",
+        role: "Founder & Chief Executive Officer (CEO)",
         company: "Fubbox",
         location: "Lagos, Nigeria",
         flag: "🇳🇬",
         country: "Nigeria",
         period: "Sept 2026 — Present",
-        type: "Full-Time Role",
+        type: "Founder & Executive",
         category: "web",
-        description: "Leading full-stack engineering for Nigeria's premier grocery and kitchen essential subscription service (Fubbox, formerly StoqBox). Architecting custom bundle builders, Save & Pay installment plans, recurring automated delivery schedules, real-time cart state management, and customer portal dashboards with high-availability cloud infrastructure.",
-        skills: ["React", "TypeScript", "Node.js", "Tailwind CSS", "Supabase", "Subscription Systems", "E-Commerce", "PWA"]
+        description: "Founder & CEO leading executive direction, product strategy, and full-stack software architecture for Fubbox (formerly StoqBox), Nigeria's premier staple grocery and kitchen essential subscription service. Steering company vision, supply chain partnerships, and architecting custom bundle builders, Save & Pay installment plans, recurring automated delivery schedules, real-time cart state management, and customer portal dashboards with high-availability cloud infrastructure.",
+        skills: ["Executive Leadership", "Product Strategy", "React 19", "TypeScript", "Node.js", "Tailwind CSS", "Supabase", "Subscription Systems", "E-Commerce"]
+    },
+    {
+        id: 'available-tech',
+        role: "Founder & Chief Executive Officer (CEO)",
+        company: "Available Tech",
+        location: "Computer Village, Ikeja, Lagos, Nigeria",
+        flag: "🇳🇬",
+        country: "Nigeria",
+        period: "2024 — Present",
+        type: "Founder & Executive",
+        category: "web",
+        description: "Founder & CEO leading business growth, tech procurement, and digital platform development for Available Tech (availabletech.ng), Computer Village Ikeja's premier modern technology sourcing and device catalog company. Architected the Apple-inspired Next.js 16.2 + React 19 digital platform with daily market pricing, instant device search, zero-config cloud persistence, and automated WhatsApp procurement routing.",
+        skills: ["Executive Leadership", "Business Strategy", "Next.js 16", "React 19", "TypeScript", "Tailwind CSS v4", "Supabase", "Hardware Diagnostics"]
     },
     {
         id: 'hedge-computers',
@@ -197,16 +210,16 @@ const experiences = [
     },
     {
         id: 'newdawn',
-        role: "IT Specialist & Full-Stack Developer",
-        company: "New Dawn Technologies (Available Tech)",
-        location: "Ikeja, Lagos, Nigeria",
+        role: "IT Specialist",
+        company: "New Dawn Technologies (Pty) Ltd",
+        location: "Lagos, Nigeria",
         flag: "🇳🇬",
         country: "Nigeria",
         period: "2022 — 2024",
-        type: "IT Infrastructure & Web Platform",
+        type: "IT Infrastructure & Support",
         category: "it",
-        description: "Delivered enterprise IT systems support, computer and logic board diagnostics, and architected the Available Tech device catalog and market inquiry web platform. Spearheaded technical documentation, workstation deployments, and low-latency digital inventory workflows for Computer Village operations.",
-        skills: ["Hardware Repair", "Next.js", "React", "TypeScript", "IT Infrastructure", "Technical Documentation"]
+        description: "Handled enterprise hardware/computer repairs, technical troubleshooting, system maintenance routines, and authored technical documentation across a two-year tenure.",
+        skills: ["Hardware Repair", "Troubleshooting", "Technical Writing", "IT Infrastructure"]
     },
     {
         id: 'sufdel',
