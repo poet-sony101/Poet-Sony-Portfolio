@@ -130,7 +130,7 @@ const commercialItems = [
         image: StudyDeskImg,
         imageType: "web",
         summary: "Browser-native student planner, target CGPA predictor, and assignment tracker engineered with 100% client-side privacy and offline storage.",
-        description: "Architected and developed StudyDesk, a zero-dependency, browser-native academic command center for university students. Engineered in vanilla modern JavaScript (ES Modules), HTML5, and modern CSS3, the platform runs completely in the browser with zero server latency, instant local storage persistence, weighted 5.0 and 4.0 grading algorithms, live degree class projection, forward-looking target CGPA calculators, and encrypted JSON data backup/restore capabilities.",
+        description: "Architected and developed StudyDesk (studyingdesk.vercel.app), a zero-dependency, browser-native academic command center for university students. Engineered in vanilla modern JavaScript (ES Modules), HTML5, and modern CSS3, the platform runs completely in the browser with zero server latency, instant local storage persistence, weighted 5.0 and 4.0 grading algorithms, live degree class projection, forward-looking target CGPA calculators, and encrypted JSON data backup/restore capabilities.",
         deliverables: [
             "Weighted GPA & CGPA calculation engine supporting both 5.0 and 4.0 national grading standards",
             "Live degree class projection (First Class, Second Class Upper) updating dynamically as grades are entered",
