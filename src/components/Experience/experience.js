@@ -7,9 +7,9 @@ import {
     CalendarIcon, 
     SparklesIcon, 
     ArrowUpRightIcon,
-    CodeIcon,
     DownloadIcon,
-    CpuIcon
+    CpuIcon,
+    RocketIcon
 } from '../common/Icons';
 
 const experiences = [
@@ -310,20 +310,48 @@ const educationList = [
 
 const flagshipProjects = [
     {
+        name: "Available Tech",
+        role: "Founder & Chief Executive Officer (CEO)",
+        desc: "Computer Village Ikeja's premier modern technology sourcing company and digital catalog platform (availabletech.ng). Engineered an Apple-inspired Next.js 16.2 + React 19 web application featuring real-time daily market pricing synchronization, high-speed filtering across MacBooks, laptops, and flagship smartphones, zero-config cloud storage persistence, and automated WhatsApp procurement routing with pre-filled hardware specs.",
+        stack: ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS v4", "Supabase", "CloudStore", "WhatsApp API", "Hardware Diagnostics"],
+        badge: "Flagship Enterprise",
+        status: "Active Venture (CEO)",
+        siteUrl: "https://availabletech.ng",
+        actionLabel: "Explore Platform & Architecture",
+        inquiryText: "Hi Poet Sony, I would like to discuss your flagship venture Available Tech"
+    },
+    {
+        name: "Fubbox",
+        role: "Founder & Chief Executive Officer (CEO)",
+        desc: "Nigeria's pioneering staple grocery and kitchen essential subscription service delivering customized staple bundles to households and businesses across Lagos (formerly StoqBox). Engineered with a modular component architecture, custom bundle builders with real-time calorie & budget calculation, Save & Pay installment plans, automated recurring delivery schedules, offline-first PWA caching, and live dispatch telemetry dashboards.",
+        stack: ["React 19", "TypeScript", "Tailwind CSS v4", "Node.js", "Supabase", "REST APIs", "PWA", "Subscription Engine"],
+        badge: "Flagship Commerce Venture",
+        status: "Active Venture (CEO)",
+        siteUrl: null,
+        actionLabel: "Explore Subscription Platform",
+        inquiryText: "Hi Poet Sony, I would like to discuss your flagship venture Fubbox"
+    },
+    {
         name: "UniConnect",
-        role: "Founder / CEO & Full-Stack Developer",
+        role: "Founder / CEO & Lead Full-Stack Architect",
         desc: "Comprehensive social & academic ecosystem engineered specifically for UNILAG students. Features real-time messaging, collaborative study tools, a skills leaderboard, student stories, alumni networking, grade calculation tracker, and rapid emergency contacts.",
-        stack: ["React", "Vite", "Tailwind CSS", "Framer Motion", "Node.js", "Express", "PostgreSQL", "Socket.io"],
-        badge: "Flagship Venture",
-        status: "Active Product"
+        stack: ["React 19", "Vite", "Tailwind CSS v4", "Framer Motion", "Node.js", "Express", "PostgreSQL", "Socket.io"],
+        badge: "Academic Social Venture",
+        status: "Active Product (Founder)",
+        siteUrl: null,
+        actionLabel: "Request Architectural Overview",
+        inquiryText: "Hi Poet Sony, I would like to discuss your flagship venture UniConnect"
     },
     {
         name: "BudTrack",
-        role: "Full-Stack Developer",
-        desc: "AI-driven fintech app concept built as an OPay mini-program for Gen Z & Gen Alpha users across Nigeria. Integrates a gamified 'Money Journey' financial literacy map, automated micro-investing options, and a conversational floating AI companion.",
-        stack: ["React", "Vite", "Tailwind CSS", "Generative AI", "Fintech UX"],
+        role: "Lead Full-Stack Developer & Product Designer",
+        desc: "AI-driven personal finance application built as an OPay mini-program for Gen Z & Gen Alpha users across Nigeria. Integrates a gamified 'Money Journey' financial literacy map, automated micro-investing options, 'Cash-Flow Pulse' velocity gauge, and a conversational floating AI companion.",
+        stack: ["React", "Vite", "Tailwind CSS", "Recharts", "OPay Mini-Program", "Generative AI"],
         badge: "Fintech Innovation",
-        status: "Hackathon Concept"
+        status: "Hackathon Finalist",
+        siteUrl: null,
+        actionLabel: "View Product Concept & Specs",
+        inquiryText: "Hi Poet Sony, I would like to discuss your fintech project BudTrack"
     }
 ];
 
@@ -385,8 +413,8 @@ const Experience = () => {
                         className={`expTabBtn ${activeTab === 'ventures' ? 'active' : ''}`}
                         onClick={() => setActiveTab('ventures')}
                     >
-                        <CodeIcon size={17} />
-                        <span>Flagship Ventures</span>
+                        <RocketIcon size={17} />
+                        <span>Flagship Ventures ({flagshipProjects.length})</span>
                     </button>
                 </div>
 
@@ -615,13 +643,24 @@ const Experience = () => {
                                     ))}
                                 </div>
                                 <div className="ventureFooter">
+                                    {proj.siteUrl && (
+                                        <a 
+                                            href={proj.siteUrl} 
+                                            target="_blank" 
+                                            rel="noreferrer" 
+                                            className="ventureLiveBtn"
+                                        >
+                                            <span>Visit Platform</span>
+                                            <ArrowUpRightIcon size={15} />
+                                        </a>
+                                    )}
                                     <a 
-                                        href="https://wa.me/+2349159767637?text=Hi%20Poet%20Sony,%20I%20would%20like%20to%20discuss%20your%20project%20" 
+                                        href={`https://wa.me/+2349159767637?text=${encodeURIComponent(proj.inquiryText || `Hi Poet Sony, I would like to discuss your flagship venture ${proj.name}`)}`} 
                                         target="_blank" 
                                         rel="noreferrer" 
                                         className="ventureActionBtn"
                                     >
-                                        <span>Request Architectural Overview</span>
+                                        <span>{proj.actionLabel || "Request Architectural Overview"}</span>
                                         <ArrowUpRightIcon size={16} />
                                     </a>
                                 </div>
