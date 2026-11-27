@@ -286,22 +286,22 @@ const ceoRoles = [
     {
         name: "SabiTrade",
         role: "Founder & Chief Executive Officer (CEO)",
-        desc: "Nigeria's premier mobile-first vocational education and localized trade gig engine (sabitrade.com). Engineered with Next.js 16 (App Router), React 19, TypeScript, and Tailwind CSS v4, delivering offline-first practical trade lessons in English and Pidgin NG, verifiable digital trade skill badges, and direct WhatsApp job-matching telemetry connecting verified local artisans to paying neighborhood gigs.",
+        desc: "Nigeria's premier mobile-first vocational education and localized trade gig engine (sabi-trade.vercel.app). Engineered with Next.js 16 (App Router), React 19, TypeScript, and Tailwind CSS v4, delivering offline-first practical trade lessons in English and Pidgin NG, verifiable digital trade skill badges, and direct WhatsApp job-matching telemetry connecting verified local artisans to paying neighborhood gigs.",
         stack: ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS v4", "Offline PWA", "Vocational EdTech", "WhatsApp Automation"],
         badge: "Flagship Vocational EdTech",
         status: "Active Venture (CEO)",
-        siteUrl: "https://sabitrade.com",
+        siteUrl: "https://sabi-trade.vercel.app/",
         actionLabel: "Explore Vocational Platform",
         inquiryText: "Hi Poet Sony, I would like to discuss your flagship venture SabiTrade"
     },
     {
         name: "Available Tech",
         role: "Founder & Chief Executive Officer (CEO)",
-        desc: "Computer Village Ikeja's premier modern technology sourcing company and digital catalog platform (availabletech.ng). Engineered an Apple-inspired Next.js 16.2 + React 19 web application featuring real-time daily market pricing synchronization, high-speed filtering across MacBooks, laptops, and flagship smartphones, zero-config cloud storage persistence, and automated WhatsApp procurement routing with pre-filled hardware specs.",
+        desc: "Computer Village Ikeja's premier modern technology sourcing company and digital catalog platform (available-tech.vercel.app). Engineered an Apple-inspired Next.js 16.2 + React 19 web application featuring real-time daily market pricing synchronization, high-speed filtering across MacBooks, laptops, and flagship smartphones, zero-config cloud storage persistence, and automated WhatsApp procurement routing with pre-filled hardware specs.",
         stack: ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS v4", "Supabase", "CloudStore", "WhatsApp API", "Hardware Diagnostics"],
         badge: "Flagship Enterprise",
         status: "Active Venture (CEO)",
-        siteUrl: "https://availabletech.ng",
+        siteUrl: "https://available-tech.vercel.app/",
         actionLabel: "Explore Platform & Architecture",
         inquiryText: "Hi Poet Sony, I would like to discuss your flagship venture Available Tech"
     },
