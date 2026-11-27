@@ -29,7 +29,9 @@ const clientList = [
     { id: '15', name: 'Hedge Computers', services: 'E-Commerce & Dealership Web Portal' },
     { id: '16', name: 'Amaoso Solar Technology', services: 'Industrial Luminaire & Solar Sizing Portal' },
     { id: '17', name: "Ezeougu's J Portfolio", services: 'Personal Brand & Digital CV Portal' },
-    { id: '18', name: 'Available Tech (Founder & CEO)', services: 'Tech Sourcing & Device Catalog Platform' }
+    { id: '18', name: 'Available Tech (Founder & CEO)', services: 'Tech Sourcing & Device Catalog Platform' },
+    { id: '19', name: 'SabiTrade (Founder & CEO)', services: 'Vocational EdTech & Local Gig Marketplace' },
+    { id: '20', name: 'StudyDesk', services: 'Browser-Native Student Academic & CGPA Platform' }
 ];
 
 const Contact = () => {

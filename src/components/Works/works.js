@@ -16,6 +16,8 @@ import AmaosoImg from '../../assets/amaoso.png';
 import EzeouguPortfolioImg from '../../assets/ezeougu-portfolio.png';
 import FatRoosterImg from '../../assets/fatrooster.png';
 import AvailableTechImg from '../../assets/available-tech.png';
+import SabiTradeImg from '../../assets/sabitrade.png';
+import StudyDeskImg from '../../assets/studydesk.png';
 import { 
     SparklesIcon, 
     ArrowUpRightIcon, 
@@ -51,6 +53,27 @@ const commercialItems = [
         ],
         tags: ["Founder & CEO", "Next.js 16", "React 19", "TypeScript", "Tailwind CSS v4", "Supabase", "E-Commerce", "Hardware Catalog", "WhatsApp Automation"],
         inquiryText: "Hi Poet Sony, I saw Available Tech in your portfolio and would like to build a technology catalog / e-commerce platform!"
+    },
+    {
+        id: "comm-sabitrade",
+        title: "SabiTrade — Mobile-First Vocational Learning & Local Gig Marketplace",
+        subtitle: "Founder & CEO • Next.js 16, React 19, Offline PWA & Verified Badge System",
+        category: "web",
+        categoryLabel: "Founder Venture • Vocational EdTech",
+        accentColor: "#ea580c",
+        image: SabiTradeImg,
+        imageType: "web",
+        summary: "Founded and executive-led by Poet Sony as CEO, SabiTrade is Nigeria's premier mobile-first vocational education and localized trade gig engine empowering youth with practical mastery and verified credentials.",
+        description: "Founded and executive-led by Oluwaniyi Amao (Poet Sony) as CEO, SabiTrade (sabitrade.com) is an offline-first vocational training and localized trade apprenticeship ecosystem built on Next.js 16 (App Router), React 19, TypeScript, and Tailwind CSS v4. Engineered to bridge youth employment and vocational skills across Nigeria with lightweight interactive lessons in English and Pidgin NG that run 100% offline, verifiable digital trade skill badges, and direct WhatsApp job-matching telemetry connecting verified local artisans to paying neighborhood gigs.",
+        deliverables: [
+            "Offline-first vocational trade curriculums across phone repair, electrical installation, fashion design, and solar tech",
+            "Interactive skill assessments with instant verifiable digital certificate/badge verification",
+            "Direct WhatsApp gig application router matching certified artisans with localized job requests",
+            "Dual English & Pidgin audio/visual instruction framework optimized for low-bandwidth mobile browsers",
+            "Artisanal branding, verified credentials registry, and high-conversion interactive onboarding funnels"
+        ],
+        tags: ["Founder & CEO", "Next.js 16", "React 19", "TypeScript", "Tailwind CSS v4", "Offline PWA", "Vocational EdTech", "WhatsApp Automation"],
+        inquiryText: "Hi Poet Sony, I saw SabiTrade in your portfolio and would like to build a vocational edtech / marketplace platform!"
     },
     {
         id: "comm-fatrooster",
@@ -96,6 +119,27 @@ const commercialItems = [
         ],
         tags: ["React 19", "TypeScript", "Vite", "Tailwind CSS v4", "Solar Sizing Engine", "B2B E-Commerce", "Web Performance"],
         inquiryText: "Hi Poet Sony, I saw the Amaoso Solar Technology platform in your portfolio and would like to build an industrial web platform!"
+    },
+    {
+        id: "comm-studydesk",
+        title: "StudyDesk — Browser-Native Student Academic & CGPA Command Center",
+        subtitle: "Vanilla Modern ES Modules, Zero-Dependency Offline Architecture & Degree Class Estimator",
+        category: "web",
+        categoryLabel: "Academic SaaS • EdTech Tool",
+        accentColor: "#3b82f6",
+        image: StudyDeskImg,
+        imageType: "web",
+        summary: "Browser-native student planner, target CGPA predictor, and assignment tracker engineered with 100% client-side privacy and offline storage.",
+        description: "Architected and developed StudyDesk, a zero-dependency, browser-native academic command center for university students. Engineered in vanilla modern JavaScript (ES Modules), HTML5, and modern CSS3, the platform runs completely in the browser with zero server latency, instant local storage persistence, weighted 5.0 and 4.0 grading algorithms, live degree class projection, forward-looking target CGPA calculators, and encrypted JSON data backup/restore capabilities.",
+        deliverables: [
+            "Weighted GPA & CGPA calculation engine supporting both 5.0 and 4.0 national grading standards",
+            "Live degree class projection (First Class, Second Class Upper) updating dynamically as grades are entered",
+            "Predictive target CGPA calculator determining required average units and grade mixes across remaining semesters",
+            "Deadline and assignment tracker with due-soon alerts and course-specific linking",
+            "100% serverless, zero-tracking, client-side localStorage encryption and JSON file export/import backup"
+        ],
+        tags: ["JavaScript (ES6+)", "HTML5", "CSS3", "EdTech", "Offline-First", "Academic Tooling", "Client-Side SaaS"],
+        inquiryText: "Hi Poet Sony, I saw StudyDesk in your portfolio and would like to build an educational web application!"
     },
     {
         id: "comm-ezeougu",

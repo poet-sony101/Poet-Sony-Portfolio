@@ -40,32 +40,6 @@ const experiences = [
         skills: ["React 19", "TypeScript", "Vite", "Tailwind CSS v4", "Solar Sizing Engine", "B2B E-Commerce", "Web Architecture"]
     },
     {
-        id: 'fubbox',
-        role: "Founder & Chief Executive Officer (CEO)",
-        company: "Fubbox",
-        location: "Lagos, Nigeria",
-        flag: "🇳🇬",
-        country: "Nigeria",
-        period: "Sept 2026 — Present",
-        type: "Founder & Executive",
-        category: "web",
-        description: "Founder & CEO leading executive direction, product strategy, and full-stack software architecture for Fubbox (formerly StoqBox), Nigeria's premier staple grocery and kitchen essential subscription service. Steering company vision, supply chain partnerships, and architecting custom bundle builders, Save & Pay installment plans, recurring automated delivery schedules, real-time cart state management, and customer portal dashboards with high-availability cloud infrastructure.",
-        skills: ["Executive Leadership", "Product Strategy", "React 19", "TypeScript", "Node.js", "Tailwind CSS", "Supabase", "Subscription Systems", "E-Commerce"]
-    },
-    {
-        id: 'available-tech',
-        role: "Founder & Chief Executive Officer (CEO)",
-        company: "Available Tech",
-        location: "Computer Village, Ikeja, Lagos, Nigeria",
-        flag: "🇳🇬",
-        country: "Nigeria",
-        period: "2024 — Present",
-        type: "Founder & Executive",
-        category: "web",
-        description: "Founder & CEO leading business growth, tech procurement, and digital platform development for Available Tech (availabletech.ng), Computer Village Ikeja's premier modern technology sourcing and device catalog company. Architected the Apple-inspired Next.js 16.2 + React 19 digital platform with daily market pricing, instant device search, zero-config cloud persistence, and automated WhatsApp procurement routing.",
-        skills: ["Executive Leadership", "Business Strategy", "Next.js 16", "React 19", "TypeScript", "Tailwind CSS v4", "Supabase", "Hardware Diagnostics"]
-    },
-    {
         id: 'hedge-computers',
         role: "Full-Stack Web Developer & Systems Engineer",
         company: "Hedge Computers",
@@ -308,7 +282,18 @@ const educationList = [
     }
 ];
 
-const flagshipProjects = [
+const ceoRoles = [
+    {
+        name: "SabiTrade",
+        role: "Founder & Chief Executive Officer (CEO)",
+        desc: "Nigeria's premier mobile-first vocational education and localized trade gig engine (sabitrade.com). Engineered with Next.js 16 (App Router), React 19, TypeScript, and Tailwind CSS v4, delivering offline-first practical trade lessons in English and Pidgin NG, verifiable digital trade skill badges, and direct WhatsApp job-matching telemetry connecting verified local artisans to paying neighborhood gigs.",
+        stack: ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS v4", "Offline PWA", "Vocational EdTech", "WhatsApp Automation"],
+        badge: "Flagship Vocational EdTech",
+        status: "Active Venture (CEO)",
+        siteUrl: "https://sabitrade.com",
+        actionLabel: "Explore Vocational Platform",
+        inquiryText: "Hi Poet Sony, I would like to discuss your flagship venture SabiTrade"
+    },
     {
         name: "Available Tech",
         role: "Founder & Chief Executive Officer (CEO)",
@@ -323,11 +308,11 @@ const flagshipProjects = [
     {
         name: "Fubbox",
         role: "Founder & Chief Executive Officer (CEO)",
-        desc: "Nigeria's pioneering staple grocery and kitchen essential subscription service delivering customized staple bundles to households and businesses across Lagos (formerly StoqBox). Engineered with a modular component architecture, custom bundle builders with real-time calorie & budget calculation, Save & Pay installment plans, automated recurring delivery schedules, offline-first PWA caching, and live dispatch telemetry dashboards.",
+        desc: "Nigeria's pioneering staple grocery and kitchen essential subscription service delivering customized staple bundles to households and businesses across Lagos (fubbox.com, formerly StoqBox). Engineered with a modular component architecture, custom bundle builders with real-time calorie & budget calculation, Save & Pay installment plans, automated recurring delivery schedules, offline-first PWA caching, and live dispatch telemetry dashboards.",
         stack: ["React 19", "TypeScript", "Tailwind CSS v4", "Node.js", "Supabase", "REST APIs", "PWA", "Subscription Engine"],
         badge: "Flagship Commerce Venture",
         status: "Active Venture (CEO)",
-        siteUrl: null,
+        siteUrl: "https://fubbox.com",
         actionLabel: "Explore Subscription Platform",
         inquiryText: "Hi Poet Sony, I would like to discuss your flagship venture Fubbox"
     },
@@ -341,22 +326,11 @@ const flagshipProjects = [
         siteUrl: null,
         actionLabel: "Request Architectural Overview",
         inquiryText: "Hi Poet Sony, I would like to discuss your flagship venture UniConnect"
-    },
-    {
-        name: "BudTrack",
-        role: "Lead Full-Stack Developer & Product Designer",
-        desc: "AI-driven personal finance application built as an OPay mini-program for Gen Z & Gen Alpha users across Nigeria. Integrates a gamified 'Money Journey' financial literacy map, automated micro-investing options, 'Cash-Flow Pulse' velocity gauge, and a conversational floating AI companion.",
-        stack: ["React", "Vite", "Tailwind CSS", "Recharts", "OPay Mini-Program", "Generative AI"],
-        badge: "Fintech Innovation",
-        status: "Hackathon Finalist",
-        siteUrl: null,
-        actionLabel: "View Product Concept & Specs",
-        inquiryText: "Hi Poet Sony, I would like to discuss your fintech project BudTrack"
     }
 ];
 
 const Experience = () => {
-    const [activeTab, setActiveTab] = useState('experience');
+    const [activeTab, setActiveTab] = useState('ceo');
     const [filterCategory, setFilterCategory] = useState('all');
 
     const filteredExperiences = filterCategory === 'all' 
@@ -389,32 +363,32 @@ const Experience = () => {
                 {/* Tab Switcher */}
                 <div className="expTabSwitcher">
                     <button 
+                        className={`expTabBtn ${activeTab === 'ceo' ? 'active' : ''}`}
+                        onClick={() => setActiveTab('ceo')}
+                    >
+                        <RocketIcon size={17} />
+                        <span>Founder &amp; CEO Roles ({ceoRoles.length})</span>
+                    </button>
+                    <button 
                         className={`expTabBtn ${activeTab === 'experience' ? 'active' : ''}`}
                         onClick={() => setActiveTab('experience')}
                     >
                         <BriefcaseIcon size={17} />
-                        <span>Work Experience ({experiences.length})</span>
+                        <span>Engineering &amp; Client Roles ({experiences.length})</span>
                     </button>
                     <button 
                         className={`expTabBtn ${activeTab === 'education' ? 'active' : ''}`}
                         onClick={() => setActiveTab('education')}
                     >
                         <GraduationCapIcon size={17} />
-                        <span>Education & Credentials ({educationList.length})</span>
+                        <span>Education &amp; Credentials ({educationList.length})</span>
                     </button>
                     <button 
                         className={`expTabBtn ${activeTab === 'story' ? 'active' : ''}`}
                         onClick={() => setActiveTab('story')}
                     >
                         <SparklesIcon size={17} />
-                        <span>My Story & Philosophy</span>
-                    </button>
-                    <button 
-                        className={`expTabBtn ${activeTab === 'ventures' ? 'active' : ''}`}
-                        onClick={() => setActiveTab('ventures')}
-                    >
-                        <RocketIcon size={17} />
-                        <span>Flagship Ventures ({flagshipProjects.length})</span>
+                        <span>My Story &amp; Philosophy</span>
                     </button>
                 </div>
 
@@ -623,10 +597,10 @@ const Experience = () => {
                     </div>
                 )}
 
-                {/* Tab 4: Flagship Ventures */}
-                {activeTab === 'ventures' && (
+                {/* Tab 1: Founder & CEO Leadership Roles */}
+                {(activeTab === 'ceo' || activeTab === 'ventures') && (
                     <div className="venturesGrid">
-                        {flagshipProjects.map((proj, idx) => (
+                        {ceoRoles.map((proj, idx) => (
                             <div key={idx} className="ventureCard glass-card">
                                 <div className="ventureHeader">
                                     <div className="ventureTopRow">

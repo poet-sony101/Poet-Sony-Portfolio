@@ -31,7 +31,7 @@ const Intro = ({ onNavigate }) => {
                     </h1>
 
                     <p className="heroBio">
-                        Hi, I'm <strong className="highlightName">Oluwaniyi Amao</strong> (popularly known as <strong className="heroAlias">Poet Sony</strong>) — Founder &amp; CEO of <span className="pillTag">Available Tech</span> and <span className="pillTag">Fubbox</span>, a versatile 
+                        Hi, I'm <strong className="highlightName">Oluwaniyi Amao</strong> (popularly known as <strong className="heroAlias">Poet Sony</strong>) — Founder &amp; CEO of <span className="pillTag">Available Tech</span>, <span className="pillTag">Fubbox</span> &amp; <span className="pillTag">SabiTrade</span>, a versatile 
                         <span className="pillTag">Full-Stack Engineer</span>, <span className="pillTag">Applied Physics Scholar</span> &amp; <span className="pillTag">Writer &amp; Poet</span>. 
                         Currently studying B.Sc. in Applied Physics with Electronics at the University of Lagos (UNILAG), I engineer custom, responsive web platforms, scalable backend services, and robust tech infrastructure.
                     </p>
